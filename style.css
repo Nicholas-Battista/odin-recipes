@@ -1,0 +1,13 @@
+:root {
+    background: linear-gradient(white,#f0e68c 55%);
+    background-attachment: fixed;
+    font-family:'Times New Roman', Times, serif
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
