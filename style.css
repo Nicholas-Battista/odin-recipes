@@ -30,3 +30,33 @@ a {
     color: black;
 }
 
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container2 a {
+    padding-top: 10px;
+    border-bottom: 5px solid #c9b508;
+}
+
+.container2 img {
+    width: 40vh;
+    height: fit-content;
+    padding-top: 10px;
+    border-radius: 15px/20%;
+}
+
+.container2 p {
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 15px/20%;
+    border-top: 5px solid #c9b508;
+    border-bottom: 2px solid black;
+    letter-spacing: 2px;
+}
+
