@@ -1,7 +1,7 @@
 :root {
     background: linear-gradient(white,#f0e68c 55%);
     background-attachment: fixed;
-    font-family:'Times New Roman', Times, serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .container {
@@ -11,3 +11,22 @@
     align-items: center;
     flex-direction: column;
 }
+
+.container h1, .cont h1 {
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 15px/20%;
+    border-top: 5px solid #f0e68c;
+    border-bottom: 2px solid black;
+    letter-spacing: 2px;
+}
+
+h1 a:hover {
+    color:#f0e68c;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
