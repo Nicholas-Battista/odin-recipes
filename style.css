@@ -13,7 +13,30 @@
     border-bottom: 5px solid #c9b508;
 }
 
-.container h1, .cont h1 {
+.cont {
+    padding: 2px 15px;
+    background-color: white;
+    border-radius: 15px/20%;
+    border-top: 5px solid #f0e68c;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 2px solid black;
+    letter-spacing: 2px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont h1 {
+    border-bottom: 1px solid black;
+}
+
+.cont img {
+    height: 10vh;
+}
+
+.container h1 {
     padding: 10px 15px;
     background-color: white;
     border-radius: 15px/20%;
@@ -22,10 +45,11 @@
     letter-spacing: 2px;
 }
 
-.cont h1 {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+.cont h1 a:hover {
+    color:#f0e68c;
+    border-bottom: 1px solid #f0e68c;
 }
+
 
 h1 a:hover {
     color:#f0e68c;
@@ -76,7 +100,7 @@ a {
     justify-content: center;
     
     flex-direction: column;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
     width: 50%;
     height: 90%;
