@@ -70,3 +70,45 @@ a {
     letter-spacing: 2px;
 }
 
+.cont2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    height: 90%;
+    
+    border-radius: 15px/20%;
+    border-top: 5px solid #f0e68c;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+}
+
+.cont2 h1 {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.cont2 img {
+    width: 75%;
+    border-radius: 15px/20%;
+}
+
+.cont2 hr {
+    height: 5px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    border: none;
+    border-radius: 15px/20%;
+    background-color:  #c9b508;
+}
+
+.cont2 p, h3{
+    display: flex;
+    align-self: flex-start;
+}
