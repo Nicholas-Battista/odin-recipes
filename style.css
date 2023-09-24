@@ -136,3 +136,16 @@ a {
     display: flex;
     align-self: flex-start;
 }
+
+
+.cont2 li {
+    padding: 10px 0px;
+}
+
+.unor, ol {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
